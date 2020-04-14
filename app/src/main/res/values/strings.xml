@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PakketjesCentrale</string>
+    <string name="title_home">GAK Pakketjes Centrale</string>
+    <string name="title_dashboard">Mijn Pakketjes</string>
+    <string name="title_notifications">Voor Anderen</string>
+    <string name="login_button_text">LOG IN</string>
+    <string name="signup_button_text">AANMELDEN</string>
+    <string name="text_of">Of</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="create_package">AANMAKEN</string>
+    <string name="title_activity_new_user">Aanmelden Nieuwe Gebruiker</string>
+    <string name="text_huisnummer">Huisnummer</string>
+    <string name="text_toevoeging">Toevoeging</string>
+    <string name="text_webwinkel">Webwinkel/Orginele Pakket</string>
+    <string name="text_aanmakenpakket">Vul hier in wanneer het pakket opgehaald kan worden.
+        Zoals dagen en tijden waarop je aanwezig bent</string>
+
+    <string-array name="spinHuisnummer">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="spinToevoeging">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>

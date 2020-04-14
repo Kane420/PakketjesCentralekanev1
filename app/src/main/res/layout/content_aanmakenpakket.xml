@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.newuser.NewUserActivity">
+
+    <EditText
+        android:id="@+id/inWebwinkel"
+        android:layout_width="230dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:hint="@string/text_webwinkel"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/tvToevoeging"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inWebwinkel2"
+        android:layout_width="328dp"
+        android:layout_height="149dp"
+        android:ems="10"
+        android:hint="@string/text_aanmakenpakket"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/btAanmaken"
+        android:layout_width="405dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/create_package"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvHuisnummer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_huisnummer"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/tvToevoeging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_toevoeging"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Spinner
+        android:id="@+id/spinHuisnummer"
+        android:layout_width="212dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="266dp"
+        app:layout_constraintBottom_toTopOf="@+id/btAanmaken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHuisnummer" />
+
+    <Spinner
+        android:id="@+id/spinHuisnummer2"
+        android:layout_width="212dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvHuisnummer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvToevoeging" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
